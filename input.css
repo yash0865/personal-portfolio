@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.social{
+    @apply text-[16px] p-3 bg-white rounded-full shadow-xl hover:shadow-pink-600;
+}
+
+.heading{
+    @apply text-3xl text-slate-600 uppercase text-center font-[Poppins] font-bold lg:mb-8 tracking-wide mt-4;
+}
+
+.animate , .social{
+    transition: all 1s;
+}
+
+.animate:hover{
+    transform: scale(1.1);
+}
+
+.social:hover{
+    transform: scale(1.2);
+}
